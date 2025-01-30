@@ -85,5 +85,17 @@
             </p>
         </div>
     </div>
+    <div class="bot">
+        <footer>
+            <p id="last-update">Last updated on </p>
+        </footer>
+        <script>
+            const lastModified = new Date(document.lastModified);
+            const dateFormat = lastModified.getDate().toString().padStart(2, '0') + '/' +
+            (lastModified.getMonth() + 1).toString().padStart(2, '0') + '/' +
+            lastModified.getFullYear();
+            document.getElementById("last-update").textContent += dateFormat;
+        </script>
+    </div>
 </body>
 </html>

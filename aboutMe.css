@@ -57,11 +57,11 @@ header h1, header p {
     border-radius:10px;
     box-sizing:border-box;
 }
-
 .intro h2 {
     margin: 0;
     text-align: center;
 }
+
 .mid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -78,8 +78,12 @@ header h1, header p {
     border-radius: 10px;
     justify-content: center;
 }
-
 .learn ul, .hobbies ul{
     text-align: left;
     list-style-type: square;
+}
+
+.bot {
+    display: flex;
+    justify-content: center;
 }
